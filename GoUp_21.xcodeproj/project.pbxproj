@@ -3,16 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62AB485D8D482950302A9228 /* Pods_GoUp_21_GoUp_21UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A46DDCD3CE96D0DC4FD2F7D /* Pods_GoUp_21_GoUp_21UITests.framework */; };
+		7F0505E62659C33600B2CA05 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0505E52659C33600B2CA05 /* Login.swift */; };
+		7F1588CC2661313600C8802E /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1588CB2661313600C8802E /* Register.swift */; };
+		7F1588D12661347A00C8802E /* PrincipalAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1588D02661347A00C8802E /* PrincipalAuth.swift */; };
+		7F35E01E265712C600B32690 /* globalNPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F35E01D265712C600B32690 /* globalNPS.swift */; };
+		7F35E0292657145400B32690 /* needNPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F35E0282657145400B32690 /* needNPS.swift */; };
+		7F35E036265714D700B32690 /* funtionsForNPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F35E035265714D700B32690 /* funtionsForNPS.swift */; };
+		7F5339D926632F0A000BFF4E /* modalRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5339D826632F0A000BFF4E /* modalRegister.swift */; };
+		7F550D8D266A751200BCDFB2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F550D8C266A751200BCDFB2 /* ImagePicker.swift */; };
 		7F7C9D082642E70A004FE4F1 /* GoUp_21App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C9D072642E70A004FE4F1 /* GoUp_21App.swift */; };
 		7F7C9D0A2642E70A004FE4F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C9D092642E70A004FE4F1 /* ContentView.swift */; };
 		7F7C9D0C2642E70A004FE4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C9D0B2642E70A004FE4F1 /* Assets.xcassets */; };
 		7F7C9D0F2642E70A004FE4F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7C9D0E2642E70A004FE4F1 /* Preview Assets.xcassets */; };
 		7F7C9D1A2642E70B004FE4F1 /* GoUp_21Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C9D192642E70B004FE4F1 /* GoUp_21Tests.swift */; };
 		7F7C9D252642E70B004FE4F1 /* GoUp_21UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C9D242642E70B004FE4F1 /* GoUp_21UITests.swift */; };
+		7F7C9D362642F102004FE4F1 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C9D352642F102004FE4F1 /* StatusView.swift */; };
+		7F7C9D3C2642FB11004FE4F1 /* colorsHexa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7C9D3B2642FB11004FE4F1 /* colorsHexa.swift */; };
+		7F8086A3265FF15E0033353F /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8086A2265FF15E0033353F /* Auth.swift */; };
+		7FAA17E3265AF57F00146B07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA17E2265AF57F00146B07 /* GoogleService-Info.plist */; };
+		7FAA1813265B196700146B07 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1812265B196700146B07 /* PrincipalView.swift */; };
+		7FAA182B265C492100146B07 /* AnimationShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA182A265C492100146B07 /* AnimationShape.swift */; };
+		7FAA1830265C494100146B07 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA182F265C494100146B07 /* Animations.swift */; };
+		7FAA1836265C4C4300146B07 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1835265C4C4300146B07 /* SettingsView.swift */; };
+		7FAA185F265C7BB600146B07 /* prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA185E265C7BB600146B07 /* prueba.swift */; };
+		7FE332372655B68E00A3B914 /* funtionsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE332362655B68E00A3B914 /* funtionsViews.swift */; };
+		7FF1A73E264591FA00FAD333 /* nps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1A73D264591FA00FAD333 /* nps.swift */; };
+		7FF1A743264593BD00FAD333 /* dateUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1A742264593BD00FAD333 /* dateUpdate.swift */; };
+		7FF1A7482645958E00FAD333 /* inputCalifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1A7472645958E00FAD333 /* inputCalifications.swift */; };
+		7FF1A7552647647B00FAD333 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1A7542647647B00FAD333 /* TextFieldStyle.swift */; };
+		7FFD3FB7265733B800A50E5A /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD3FB6265733B800A50E5A /* HostingController.swift */; };
+		854D47286804A2A0BE3DCB4E /* Pods_GoUp_21Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D3EE6751D773D4DE3DE04F /* Pods_GoUp_21Tests.framework */; };
+		9D44A4AA84826BC4088B7562 /* Pods_GoUp_21.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C16E1DC54578B50D547907 /* Pods_GoUp_21.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +59,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09090FA3FBD38C2D315BCF08 /* Pods-GoUp_21Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoUp_21Tests.release.xcconfig"; path = "Target Support Files/Pods-GoUp_21Tests/Pods-GoUp_21Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0CD8BC8FD70525FD3CA7245D /* Pods-GoUp_21-GoUp_21UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoUp_21-GoUp_21UITests.debug.xcconfig"; path = "Target Support Files/Pods-GoUp_21-GoUp_21UITests/Pods-GoUp_21-GoUp_21UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		100869C42FD694DCD609561D /* Pods-GoUp_21-GoUp_21UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoUp_21-GoUp_21UITests.release.xcconfig"; path = "Target Support Files/Pods-GoUp_21-GoUp_21UITests/Pods-GoUp_21-GoUp_21UITests.release.xcconfig"; sourceTree = "<group>"; };
+		1CDB245D428754D0F5858F53 /* Pods-GoUp_21.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoUp_21.debug.xcconfig"; path = "Target Support Files/Pods-GoUp_21/Pods-GoUp_21.debug.xcconfig"; sourceTree = "<group>"; };
+		32C16E1DC54578B50D547907 /* Pods_GoUp_21.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoUp_21.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A46DDCD3CE96D0DC4FD2F7D /* Pods_GoUp_21_GoUp_21UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoUp_21_GoUp_21UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0505E52659C33600B2CA05 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		7F1588CB2661313600C8802E /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		7F1588D02661347A00C8802E /* PrincipalAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalAuth.swift; sourceTree = "<group>"; };
+		7F35E01D265712C600B32690 /* globalNPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalNPS.swift; sourceTree = "<group>"; };
+		7F35E0282657145400B32690 /* needNPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needNPS.swift; sourceTree = "<group>"; };
+		7F35E035265714D700B32690 /* funtionsForNPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = funtionsForNPS.swift; path = "../../../../NPS 2.0/NPS 2.0/Utility/funtionsForNPS.swift"; sourceTree = "<group>"; };
+		7F5339D826632F0A000BFF4E /* modalRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalRegister.swift; sourceTree = "<group>"; };
+		7F550D8C266A751200BCDFB2 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		7F7C9D042642E709004FE4F1 /* GoUp_21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoUp_21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7C9D072642E70A004FE4F1 /* GoUp_21App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoUp_21App.swift; sourceTree = "<group>"; };
 		7F7C9D092642E70A004FE4F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +85,24 @@
 		7F7C9D202642E70B004FE4F1 /* GoUp_21UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoUp_21UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7C9D242642E70B004FE4F1 /* GoUp_21UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoUp_21UITests.swift; sourceTree = "<group>"; };
 		7F7C9D262642E70B004FE4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7C9D352642F102004FE4F1 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		7F7C9D3B2642FB11004FE4F1 /* colorsHexa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorsHexa.swift; sourceTree = "<group>"; };
+		7F8086A2265FF15E0033353F /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		7FAA17E2265AF57F00146B07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FAA1812265B196700146B07 /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
+		7FAA182A265C492100146B07 /* AnimationShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationShape.swift; sourceTree = "<group>"; };
+		7FAA182F265C494100146B07 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		7FAA1835265C4C4300146B07 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7FAA185E265C7BB600146B07 /* prueba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba.swift; sourceTree = "<group>"; };
+		7FE332362655B68E00A3B914 /* funtionsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funtionsViews.swift; sourceTree = "<group>"; };
+		7FF1A73D264591FA00FAD333 /* nps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nps.swift; sourceTree = "<group>"; };
+		7FF1A742264593BD00FAD333 /* dateUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateUpdate.swift; sourceTree = "<group>"; };
+		7FF1A7472645958E00FAD333 /* inputCalifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputCalifications.swift; sourceTree = "<group>"; };
+		7FF1A7542647647B00FAD333 /* TextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		7FFD3FB6265733B800A50E5A /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		85D3EE6751D773D4DE3DE04F /* Pods_GoUp_21Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoUp_21Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2B6319C0792C9112F8517E /* Pods-GoUp_21.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoUp_21.release.xcconfig"; path = "Target Support Files/Pods-GoUp_21/Pods-GoUp_21.release.xcconfig"; sourceTree = "<group>"; };
+		E72CE8A9AF77820107341AAA /* Pods-GoUp_21Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoUp_21Tests.debug.xcconfig"; path = "Target Support Files/Pods-GoUp_21Tests/Pods-GoUp_21Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D44A4AA84826BC4088B7562 /* Pods_GoUp_21.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854D47286804A2A0BE3DCB4E /* Pods_GoUp_21Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +126,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AB485D8D482950302A9228 /* Pods_GoUp_21_GoUp_21UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09CC5C4C8DF75445C56AC5A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CDB245D428754D0F5858F53 /* Pods-GoUp_21.debug.xcconfig */,
+				8C2B6319C0792C9112F8517E /* Pods-GoUp_21.release.xcconfig */,
+				0CD8BC8FD70525FD3CA7245D /* Pods-GoUp_21-GoUp_21UITests.debug.xcconfig */,
+				100869C42FD694DCD609561D /* Pods-GoUp_21-GoUp_21UITests.release.xcconfig */,
+				E72CE8A9AF77820107341AAA /* Pods-GoUp_21Tests.debug.xcconfig */,
+				09090FA3FBD38C2D315BCF08 /* Pods-GoUp_21Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7F0505E42659C31C00B2CA05 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7F1588D02661347A00C8802E /* PrincipalAuth.swift */,
+				7F0505E52659C33600B2CA05 /* Login.swift */,
+				7F1588CB2661313600C8802E /* Register.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7F35E02D2657147A00B32690 /* Struct_Class */ = {
+			isa = PBXGroup;
+			children = (
+				7FF1A7542647647B00FAD333 /* TextFieldStyle.swift */,
+				7F35E01D265712C600B32690 /* globalNPS.swift */,
+				7F35E0282657145400B32690 /* needNPS.swift */,
+				7F8086A2265FF15E0033353F /* Auth.swift */,
+				7F550D8C266A751200BCDFB2 /* ImagePicker.swift */,
+			);
+			path = Struct_Class;
+			sourceTree = "<group>";
+		};
+		7F35E02E265714AE00B32690 /* Funtions */ = {
+			isa = PBXGroup;
+			children = (
+				7F7C9D3B2642FB11004FE4F1 /* colorsHexa.swift */,
+				7FE332362655B68E00A3B914 /* funtionsViews.swift */,
+				7F35E035265714D700B32690 /* funtionsForNPS.swift */,
+				7FAA182F265C494100146B07 /* Animations.swift */,
+			);
+			path = Funtions;
+			sourceTree = "<group>";
+		};
+		7F5339D726632EEF000BFF4E /* AuxViews */ = {
+			isa = PBXGroup;
+			children = (
+				7F5339D826632F0A000BFF4E /* modalRegister.swift */,
+			);
+			path = AuxViews;
+			sourceTree = "<group>";
+		};
 		7F7C9CFB2642E709004FE4F1 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +194,8 @@
 				7F7C9D182642E70B004FE4F1 /* GoUp_21Tests */,
 				7F7C9D232642E70B004FE4F1 /* GoUp_21UITests */,
 				7F7C9D052642E709004FE4F1 /* Products */,
+				09CC5C4C8DF75445C56AC5A2 /* Pods */,
+				F8F33A37949AA4F1609BC756 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,10 +212,14 @@
 		7F7C9D062642E709004FE4F1 /* GoUp_21 */ = {
 			isa = PBXGroup;
 			children = (
+				7F7C9D4326445D1F004FE4F1 /* Views */,
+				7F7C9D3A2642FAF0004FE4F1 /* Utility */,
 				7F7C9D072642E70A004FE4F1 /* GoUp_21App.swift */,
+				7FFD3FB6265733B800A50E5A /* HostingController.swift */,
 				7F7C9D092642E70A004FE4F1 /* ContentView.swift */,
 				7F7C9D0B2642E70A004FE4F1 /* Assets.xcassets */,
 				7F7C9D102642E70A004FE4F1 /* Info.plist */,
+				7FAA17E2265AF57F00146B07 /* GoogleService-Info.plist */,
 				7F7C9D0D2642E70A004FE4F1 /* Preview Content */,
 			);
 			path = GoUp_21;
@@ -130,6 +251,66 @@
 			path = GoUp_21UITests;
 			sourceTree = "<group>";
 		};
+		7F7C9D3A2642FAF0004FE4F1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA1829265C474F00146B07 /* Animations */,
+				7F35E02E265714AE00B32690 /* Funtions */,
+				7F35E02D2657147A00B32690 /* Struct_Class */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7F7C9D4326445D1F004FE4F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F5339D726632EEF000BFF4E /* AuxViews */,
+				7FAA1834265C4C2C00146B07 /* SettingsView */,
+				7F0505E42659C31C00B2CA05 /* Auth */,
+				7F9E07A02659C11700A1A48D /* Principal */,
+				7FAA1812265B196700146B07 /* PrincipalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7F9E07A02659C11700A1A48D /* Principal */ = {
+			isa = PBXGroup;
+			children = (
+				7F7C9D352642F102004FE4F1 /* StatusView.swift */,
+				7FF1A7472645958E00FAD333 /* inputCalifications.swift */,
+				7FF1A73D264591FA00FAD333 /* nps.swift */,
+				7FF1A742264593BD00FAD333 /* dateUpdate.swift */,
+			);
+			path = Principal;
+			sourceTree = "<group>";
+		};
+		7FAA1829265C474F00146B07 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA182A265C492100146B07 /* AnimationShape.swift */,
+				7FAA185E265C7BB600146B07 /* prueba.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		7FAA1834265C4C2C00146B07 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				7FAA1835265C4C4300146B07 /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		F8F33A37949AA4F1609BC756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C16E1DC54578B50D547907 /* Pods_GoUp_21.framework */,
+				7A46DDCD3CE96D0DC4FD2F7D /* Pods_GoUp_21_GoUp_21UITests.framework */,
+				85D3EE6751D773D4DE3DE04F /* Pods_GoUp_21Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F7C9D292642E70B004FE4F1 /* Build configuration list for PBXNativeTarget "GoUp_21" */;
 			buildPhases = (
+				275C69DC9E6DC64DF777CB36 /* [CP] Check Pods Manifest.lock */,
 				7F7C9D002642E709004FE4F1 /* Sources */,
 				7F7C9D012642E709004FE4F1 /* Frameworks */,
 				7F7C9D022642E709004FE4F1 /* Resources */,
+				1F5D3F143299FBDC2FFFC2E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +337,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F7C9D2C2642E70B004FE4F1 /* Build configuration list for PBXNativeTarget "GoUp_21Tests" */;
 			buildPhases = (
+				C6F19C048AEFB4966BE15B96 /* [CP] Check Pods Manifest.lock */,
 				7F7C9D112642E70B004FE4F1 /* Sources */,
 				7F7C9D122642E70B004FE4F1 /* Frameworks */,
 				7F7C9D132642E70B004FE4F1 /* Resources */,
@@ -172,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F7C9D2F2642E70B004FE4F1 /* Build configuration list for PBXNativeTarget "GoUp_21UITests" */;
 			buildPhases = (
+				9E4524E71B59A0AF4CDF3858 /* [CP] Check Pods Manifest.lock */,
 				7F7C9D1C2642E70B004FE4F1 /* Sources */,
 				7F7C9D1D2642E70B004FE4F1 /* Frameworks */,
 				7F7C9D1E2642E70B004FE4F1 /* Resources */,
+				9E3F741EBF8467FDDC6C032F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F7C9D0F2642E70A004FE4F1 /* Preview Assets.xcassets in Resources */,
+				7FAA17E3265AF57F00146B07 /* GoogleService-Info.plist in Resources */,
 				7F7C9D0C2642E70A004FE4F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +441,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F5D3F143299FBDC2FFFC2E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoUp_21/Pods-GoUp_21-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoUp_21/Pods-GoUp_21-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoUp_21/Pods-GoUp_21-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		275C69DC9E6DC64DF777CB36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoUp_21-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3F741EBF8467FDDC6C032F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoUp_21-GoUp_21UITests/Pods-GoUp_21-GoUp_21UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoUp_21-GoUp_21UITests/Pods-GoUp_21-GoUp_21UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoUp_21-GoUp_21UITests/Pods-GoUp_21-GoUp_21UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E4524E71B59A0AF4CDF3858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoUp_21-GoUp_21UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F19C048AEFB4966BE15B96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoUp_21Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F7C9D002642E709004FE4F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FAA182B265C492100146B07 /* AnimationShape.swift in Sources */,
+				7FF1A7482645958E00FAD333 /* inputCalifications.swift in Sources */,
+				7FAA1830265C494100146B07 /* Animations.swift in Sources */,
+				7FAA185F265C7BB600146B07 /* prueba.swift in Sources */,
+				7FAA1836265C4C4300146B07 /* SettingsView.swift in Sources */,
+				7FF1A7552647647B00FAD333 /* TextFieldStyle.swift in Sources */,
 				7F7C9D0A2642E70A004FE4F1 /* ContentView.swift in Sources */,
 				7F7C9D082642E70A004FE4F1 /* GoUp_21App.swift in Sources */,
+				7F7C9D362642F102004FE4F1 /* StatusView.swift in Sources */,
+				7FFD3FB7265733B800A50E5A /* HostingController.swift in Sources */,
+				7F35E01E265712C600B32690 /* globalNPS.swift in Sources */,
+				7F5339D926632F0A000BFF4E /* modalRegister.swift in Sources */,
+				7F0505E62659C33600B2CA05 /* Login.swift in Sources */,
+				7F1588D12661347A00C8802E /* PrincipalAuth.swift in Sources */,
+				7F7C9D3C2642FB11004FE4F1 /* colorsHexa.swift in Sources */,
+				7F35E0292657145400B32690 /* needNPS.swift in Sources */,
+				7F8086A3265FF15E0033353F /* Auth.swift in Sources */,
+				7FAA1813265B196700146B07 /* PrincipalView.swift in Sources */,
+				7FF1A743264593BD00FAD333 /* dateUpdate.swift in Sources */,
+				7F35E036265714D700B32690 /* funtionsForNPS.swift in Sources */,
+				7F1588CC2661313600C8802E /* Register.swift in Sources */,
+				7F550D8D266A751200BCDFB2 /* ImagePicker.swift in Sources */,
+				7FF1A73E264591FA00FAD333 /* nps.swift in Sources */,
+				7FE332372655B68E00A3B914 /* funtionsViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +726,7 @@
 		};
 		7F7C9D2A2642E70B004FE4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDB245D428754D0F5858F53 /* Pods-GoUp_21.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +749,7 @@
 		};
 		7F7C9D2B2642E70B004FE4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2B6319C0792C9112F8517E /* Pods-GoUp_21.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +772,7 @@
 		};
 		7F7C9D2D2642E70B004FE4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72CE8A9AF77820107341AAA /* Pods-GoUp_21Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +795,7 @@
 		};
 		7F7C9D2E2642E70B004FE4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09090FA3FBD38C2D315BCF08 /* Pods-GoUp_21Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +818,7 @@
 		};
 		7F7C9D302642E70B004FE4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD8BC8FD70525FD3CA7245D /* Pods-GoUp_21-GoUp_21UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +839,7 @@
 		};
 		7F7C9D312642E70B004FE4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 100869C42FD694DCD609561D /* Pods-GoUp_21-GoUp_21UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

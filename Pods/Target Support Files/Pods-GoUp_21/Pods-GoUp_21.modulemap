@@ -1,0 +1,6 @@
+framework module Pods_GoUp_21 {
+  umbrella header "Pods-GoUp_21-umbrella.h"
+
+  export *
+  module * { export * }
+}
